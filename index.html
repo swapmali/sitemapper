@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<title>Sitemap</title>
+		<style>
+			/* .node circle {
+				fill: #fff;
+				stroke: steelblue;
+				stroke-width: 3px;
+			}
+
+			.node text {
+				font: 12px sans-serif;
+			}
+
+			.link {
+				fill: none;
+				stroke: #ccc;
+				stroke-width: 2px;
+			} */
+			.node {
+    cursor: pointer;
+  }
+
+  .overlay{
+      background-color:#EEE;
+  }
+   
+  .node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+  }
+   
+  .node text {
+    font-size:10px; 
+    font-family:sans-serif;
+  }
+   
+  .link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+  }
+
+  .templink {
+    fill: none;
+    stroke: red;
+    stroke-width: 3px;
+  }
+
+  .ghostCircle.show{
+      display:block;
+  }
+
+  .ghostCircle, .activeDrag .ghostCircle{
+       display: none;
+  }
+		</style>
+	</head>
+	<body>
+		<div id="tree-container"></div>
+
+		<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+		<!-- <script src="https://d3js.org/d3.v4.min.js"></script> -->
+		<script src="https://d3js.org/d3.v3.min.js"></script>
+		<!-- <script src="plotter.js"></script> -->
+		<!-- <script src="get-data.js"></script> -->
+		<script src="zoomable_sitemap.js"></script>
+		<!-- <script src="ape.js"></script> -->
+	</body>
+</html>

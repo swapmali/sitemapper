@@ -1,3 +1,8 @@
+"""
+Command:$ python3 main.py --domain http://cse.nitk.ac.in --output sitemap.xml --num-workers 40 --report
+"""
+
+
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 import argparse
